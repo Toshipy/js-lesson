@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border-radius: 8px;
+  border: none;
+  padding: 10px 5px;
+  outline: none;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 5px 5px;
+
+}
+
+button:hover {
+  background-color: #ff7777;
+  color: #fff;
+  cursor : pointer;
+}
+
+.input {
+  background-color: lightgreen;
+  width: 250px;
+  height: 30@x;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.incomplete {
+  background-color: lightblue;
+  minheight: 200px;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.complete {
+  background-color: lightpink;
+  minheight: 200px;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 8px;
+}
